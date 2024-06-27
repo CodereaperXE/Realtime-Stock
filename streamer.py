@@ -1,11 +1,12 @@
+#RB
+#8/4/2024
 import websocket
 import json
 import ticker_pb2
 import base64
 import threading
 import time
-#RB
-#8/4/2024
+
 class Streamer:
     def __init__(self):
         self.data = {}
